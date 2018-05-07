@@ -16,7 +16,7 @@
     </bean>
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource"></property>
-        <!--<property name="configLocation" value="classpath:mybatisConfig.xml"></property>-->
+        <property name="configLocation" value="classpath:mybatisConfig.xml"></property>
     </bean>
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="com.galaxy.demon.dao/"></property>

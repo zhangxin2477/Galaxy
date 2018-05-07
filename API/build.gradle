@@ -10,7 +10,7 @@ targetCompatibility = 1.8
 
 repositories {
     //mavenCentral()
-    maven{
+    maven {
         url "http://maven.aliyun.com/nexus/content/repositories/central/"
     }
 }
@@ -22,8 +22,8 @@ dependencies {
     compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.5'
     compile group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.9.5'
 
-    compile group: 'org.springframework',name: 'spring-core',version: '5.0.5.RELEASE'
-    compile group: 'org.springframework',name: 'spring-context',version: '5.0.5.RELEASE'
+    compile group: 'org.springframework', name: 'spring-core', version: '5.0.5.RELEASE'
+    compile group: 'org.springframework', name: 'spring-context', version: '5.0.5.RELEASE'
     compile group: 'org.springframework', name: 'spring-jdbc', version: '5.0.5.RELEASE'
 
     compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'

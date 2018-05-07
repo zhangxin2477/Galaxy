@@ -1,30 +1,31 @@
 package com.galaxy.demon.entity;
 
-import java.io.Serializable;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
-public class User implements Serializable {
+public class User {
     private int id;
+    private int org_id;
     private String name;
     private int age;
-    private String school_name;
 
-    public User(){
+    public User() {
         super();
     }
 
-    public User(String name,int age,String school_name){
+    public User(int org_id, String name, int age) {
         super();
-        this.name=name;
-        this.age=age;
-        this.school_name=school_name;
+        this.org_id = org_id;
+        this.name = name;
+        this.age = age;
     }
 
-    public User(int id,String name,int age,String school_name){
+    public User(int id, int org_id, String name, int age) {
         super();
-        this.id=id;
-        this.name=name;
-        this.age=age;
-        this.school_name=school_name;
+        this.id = id;
+        this.org_id = org_id;
+        this.name = name;
+        this.age = age;
     }
 
     public int getId() {
@@ -52,16 +53,22 @@ public class User implements Serializable {
         return name;
     }
 
-    @Override
+    public int getOrg_id() {
+        return org_id;
+    }
+
+    public void setOrg_id(int org_id) {
+        this.org_id = org_id;
+    }
+
     public String toString(){
-        return "id:"+id+",name:"+name+",age:"+age+",school:"+school_name;
-    }
-
-    public String getSchool_name() {
-        return school_name;
-    }
-
-    public void setSchool_name(String school_name) {
-        this.school_name = school_name;
+        ObjectMapper mapper = new ObjectMapper();
+        String str= "";
+        try {
+            str = mapper.writeValueAsString(this);
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+        }
+        return str;
     }
 }

@@ -6,4 +6,10 @@
     <settings>
         <setting name="logImpl" value="LOG4J"/>
     </settings>
+    <typeAliases>
+        <typeAlias type="com.galaxy.demon.dao.UserDao" alias="User"></typeAlias>
+    </typeAliases>
+    <mappers>
+        <mapper resource="mybatisMappers.xml"></mapper>
+    </mappers>
 </configuration>
