@@ -16,7 +16,8 @@ public class Application {
         UserService userService = context.getBean(UserService.class);
 
         Org org = userService.getOrg(1);
-        if (null != org)
+        if (null != org) {
             log.info(org.toString());
+        }
     }
 }
