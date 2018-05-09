@@ -1,21 +1,25 @@
 package com.galaxy.demon;
 
 import com.galaxy.demon.entity.Org;
-import com.galaxy.demon.entity.User;
-import com.galaxy.demon.servicce.UserService;
+import com.galaxy.demon.service.DemonService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import java.io.IOException;
+
 public class Application {
     private static final Logger log = LoggerFactory.getLogger(Application.class);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-        UserService userService = context.getBean(UserService.class);
+        System.out.println(context.getDisplayName()+":here");
+        ((ClassPathXmlApplicationContext) context).start();
+        System.out.println("服务已启动...");
 
-        Org org = userService.getOrg(1);
+        DemonService demonService = context.getBean(DemonService.class);
+        Org org = demonService.getOrg(1);
         if (null != org) {
             log.info(org.toString());
         }
