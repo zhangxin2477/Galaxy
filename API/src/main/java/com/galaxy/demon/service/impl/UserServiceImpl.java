@@ -6,9 +6,10 @@ import com.galaxy.demon.service.DemonService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 
-@Service
+@com.alibaba.dubbo.config.annotation.Service(interfaceClass = DemonService.class)
+@Component
 public class UserServiceImpl implements DemonService {
     private static final Logger log = LoggerFactory.getLogger(UserServiceImpl.class);
 

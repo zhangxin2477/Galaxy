@@ -14,14 +14,15 @@ public class Application {
 
     public static void main(String[] args) throws IOException {
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-        System.out.println(context.getDisplayName()+":here");
+        System.out.println(context.getDisplayName().toString()+":here");
         ((ClassPathXmlApplicationContext) context).start();
-        System.out.println("服务已启动...");
-
-        DemonService demonService = context.getBean(DemonService.class);
-        Org org = demonService.getOrg(1);
-        if (null != org) {
-            log.info(org.toString());
-        }
+//        System.out.println("服务已启动...");
+//
+//        //com.alibaba.dubbo.container.Main(args);
+//        DemonService demonService = context.getBean(DemonService.class);
+//        Org org = demonService.getOrg(1);
+//        if (null != org) {
+//            log.info(org.toString());
+//        }
     }
 }

@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51e5be8f-8161-4e8b-8d0b-dfd166c12fc5" name="Default" comment="实体序列化">
-      <change afterPath="$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/service/DemonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/API/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/API/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/API/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/out/production/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/API/out/production/classes/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/servicce/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/service/DemonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/service/DemonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/resources/log4j.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -80,7 +82,12 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -89,8 +96,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/API/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="36" column="84" selection-start-line="36" selection-start-column="84" selection-end-line="36" selection-end-column="84" />
+            <state relative-caret-position="-106">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -98,8 +105,8 @@
       <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="180">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,23 +114,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/service/impl/UserServiceImpl.java">
+      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/API/src/main/resources/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <state>
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/API/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="17" column="82" lean-forward="true" selection-start-line="17" selection-start-column="82" selection-end-line="17" selection-end-column="82" />
-              <folding>
-                <element signature="e#1184#1197#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="233">
+              <caret line="35" column="105" selection-start-line="35" selection-start-column="105" selection-end-line="35" selection-end-column="105" />
             </state>
           </provider>
         </entry>
@@ -132,16 +136,19 @@
         <entry file="file://$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/service/DemonService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+              <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/dao/UserDao.java">
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+            <state relative-caret-position="-97">
+              <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -171,7 +178,7 @@
     <option name="myGradleHomes">
       <map>
         <entry key="$PROJECT_DIR$" value="C:\Users\zhang\.gradle\wrapper\dists\gradle-4.4-all\9br9xq1tocpiv8o6njlyu5op1\gradle-4.4" />
-        <entry key="$PROJECT_DIR$/API" value="C:\Users\Administrator\.gradle\wrapper\dists\gradle-4.4-all\9br9xq1tocpiv8o6njlyu5op1\gradle-4.4" />
+        <entry key="$PROJECT_DIR$/API" value="C:\Users\zhang\.gradle\wrapper\dists\gradle-4.4-all\9br9xq1tocpiv8o6njlyu5op1\gradle-4.4" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -509,9 +516,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6101589029754" />
+        <entry key="$PROJECT_DIR$" value="6102772568275" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/API" value="6101694689235" />
+        <entry key="$PROJECT_DIR$/API" value="6102946077454" />
         <entry key="$PROJECT_DIR$/API/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/API/build.gradle" value="1672196526" />
         <entry key="$PROJECT_DIR$/API/gradle/wrapper/gradle-wrapper.properties" value="2083459160" />
@@ -887,8 +894,6 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/65f742f8-e7e1-45d9-934a-dc31fe93fe92/console_1.sql" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/API/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/API/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/API/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/API/src/main/resources/mybatisConfig.xml" />
         <option value="$PROJECT_DIR$/API/src/main/resources/mybatisMappers.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/65f742f8-e7e1-45d9-934a-dc31fe93fe92/console.sql" />
@@ -903,15 +908,19 @@
         <option value="$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/servicce/DemonService.java" />
         <option value="$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/servicce/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/servicce/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/Application.java" />
-        <option value="$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/Application.java" />
-        <option value="$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/Application.java" />
+        <option value="$PROJECT_DIR$/API/build.gradle" />
+        <option value="$PROJECT_DIR$/API/build.gradle" />
+        <option value="$PROJECT_DIR$/API/build.gradle" />
+        <option value="$PROJECT_DIR$/API/build.gradle" />
+        <option value="$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/service/DemonService.java" />
         <option value="$PROJECT_DIR$/API/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/API/build.gradle" />
-        <option value="$PROJECT_DIR$/API/build.gradle" />
-        <option value="$PROJECT_DIR$/API/build.gradle" />
-        <option value="$PROJECT_DIR$/API/build.gradle" />
         <option value="$PROJECT_DIR$/API/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/Application.java" />
+        <option value="$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/Application.java" />
+        <option value="$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/Application.java" />
+        <option value="$PROJECT_DIR$/API/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/API/src/main/resources/log4j.properties" />
       </list>
     </option>
   </component>
@@ -930,10 +939,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="202" />
-    <option name="y" value="61" />
+    <option name="x" value="54" />
     <option name="width" value="1283" />
-    <option name="height" value="872" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -942,6 +950,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -997,26 +1007,6 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demon" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Galaxy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="API" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demon" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Galaxy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="API" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demon" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1040,14 +1030,19 @@
             </path>
             <path>
               <item name="Galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Galaxy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Galaxy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -1075,7 +1070,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3862069" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1097,6 +1092,16 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.galaxy.demon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alibaba.dubbo.container.Main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alibaba.dubbo.container.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1145,10 +1150,12 @@
     <list>
       <item itemvalue="Node.js.bin\www" />
       <item itemvalue="Application.Application" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Application" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -1182,15 +1189,16 @@
       <workItem from="1525778391924" duration="2218000" />
       <workItem from="1525830306706" duration="4469000" />
       <workItem from="1525846231594" duration="2483000" />
+      <workItem from="1525866112379" duration="601000" />
+      <workItem from="1525868242694" duration="4192000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75181000" />
+    <option name="totallyTimeSpent" value="79974000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="202" y="61" width="1283" height="872" extended-state="0" />
-    <editor active="true" />
+    <frame x="54" y="0" width="1283" height="1047" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.3286385" />
@@ -1198,31 +1206,31 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.32070366" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32070366" />
       <window_info anchor="right" id="Database" order="3" weight="0.1888798" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32972974" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.30877572" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.79431075" />
       <window_info anchor="bottom" id="Spring" order="8" sideWeight="0.49946696" weight="0.32864866" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29844645" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22485691" />
       <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="right" id="Gradle" order="3" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.20441537" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="9" weight="0.45060894" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="TypeScript" order="8" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32972974" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -1240,15 +1248,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="实体序列化" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/Demon.java" />
-    <entry file="file://$PROJECT_DIR$/API/src/main/resources/spring.xml" />
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Server/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -1398,13 +1397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://65f742f8-e7e1-45d9-934a-dc31fe93fe92/schema/galaxy/table/organ">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1454,44 +1446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/service/DemonService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="36" column="84" selection-start-line="36" selection-start-column="84" selection-end-line="36" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/API/src/main/resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1499,16 +1453,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/resources/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/API/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="17" column="82" lean-forward="true" selection-start-line="17" selection-start-column="82" selection-end-line="17" selection-end-column="82" />
+        <state relative-caret-position="-106">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/service/DemonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/dubbo/2.6.1/ee7a481e10525a68ac2ee62847faed6c544ca184/dubbo-2.6.1-sources.jar!/com/alibaba/dubbo/config/annotation/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
           <folding>
-            <element signature="e#1184#1197#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-97">
+          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="35" column="105" selection-start-line="35" selection-start-column="105" selection-end-line="35" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/dubbo/2.6.1/ee7a481e10525a68ac2ee62847faed6c544ca184/dubbo-2.6.1-sources.jar!/com/alibaba/dubbo/container/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.0.5.RELEASE/5a09407b3c27b88fcb9b07b1bc72cfab6034aa5d/spring-context-5.0.5.RELEASE-sources.jar!/org/springframework/context/ApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/com/galaxy/demon/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="gradleExecuteTaskHistory">
+    <option value="" />
   </component>
   <component name="masterDetails">
     <states>
