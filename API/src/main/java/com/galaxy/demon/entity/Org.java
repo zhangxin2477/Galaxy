@@ -3,7 +3,9 @@ package com.galaxy.demon.entity;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-public class Org {
+import java.io.Serializable;
+
+public class Org implements Serializable {
     private int id;
     private String org_name;
 
