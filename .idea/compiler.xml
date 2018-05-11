@@ -4,6 +4,10 @@
     <bytecodeTargetLevel>
       <module name="GalaxyApi_main" target="1.8" />
       <module name="GalaxyApi_test" target="1.8" />
+      <module name="GalaxyService_main" target="1.8" />
+      <module name="GalaxyService_test" target="1.8" />
+      <module name="GalaxyWeb_main" target="1.8" />
+      <module name="GalaxyWeb_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

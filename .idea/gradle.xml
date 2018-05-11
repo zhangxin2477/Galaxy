@@ -3,22 +3,36 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/GalaxyApi" />
+        <option name="gradleHome" value="D:/gradle-4.7" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/GalaxyApi" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/API" />
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/GalaxyService" />
+        <option name="gradleHome" value="D:/gradle-4.7" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/API" />
+            <option value="$PROJECT_DIR$/GalaxyApi" />
+            <option value="$PROJECT_DIR$/GalaxyService" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/GalaxyWeb" />
+        <option name="gradleHome" value="D:/gradle-4.7" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/GalaxyApi" />
+            <option value="$PROJECT_DIR$/GalaxyWeb" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />

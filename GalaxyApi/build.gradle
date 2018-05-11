@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'com.zhangxin'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    maven {
+        url "http://maven.aliyun.com/nexus/content/repositories/central/"
+    }
+}
+
+dependencies {
+    compile 'com.fasterxml.jackson.core:jackson-core:2.9.5'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.9.5'
+}

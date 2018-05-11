@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GalaxyServer/GalaxyServer.iml" filepath="$PROJECT_DIR$/GalaxyServer/GalaxyServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Galaxy.iml" filepath="$PROJECT_DIR$/.idea/Galaxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GalaxyApi.iml" filepath="$PROJECT_DIR$/.idea/modules/GalaxyApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GalaxyApi_main.iml" filepath="$PROJECT_DIR$/.idea/modules/GalaxyApi_main.iml" group="GalaxyApi" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GalaxyApi_test.iml" filepath="$PROJECT_DIR$/.idea/modules/GalaxyApi_test.iml" group="GalaxyApi" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GalaxyService.iml" filepath="$PROJECT_DIR$/.idea/modules/GalaxyService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GalaxyService_main.iml" filepath="$PROJECT_DIR$/.idea/modules/GalaxyService_main.iml" group="GalaxyService" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GalaxyService_test.iml" filepath="$PROJECT_DIR$/.idea/modules/GalaxyService_test.iml" group="GalaxyService" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GalaxyWeb.iml" filepath="$PROJECT_DIR$/.idea/modules/GalaxyWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GalaxyWeb_main.iml" filepath="$PROJECT_DIR$/.idea/modules/GalaxyWeb_main.iml" group="GalaxyWeb" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GalaxyWeb_test.iml" filepath="$PROJECT_DIR$/.idea/modules/GalaxyWeb_test.iml" group="GalaxyWeb" />
     </modules>
   </component>
 </project>
