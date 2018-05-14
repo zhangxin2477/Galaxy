@@ -8,10 +8,7 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output-test url="file://$MODULE_DIR$/../../GalaxyService/out/test/classes" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../GalaxyService/src/test">
-      <sourceFolder url="file://$MODULE_DIR$/../../GalaxyService/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../GalaxyService/src/test/resources" type="java-test-resource" />
-    </content>
+    <content url="file://$MODULE_DIR$/../../GalaxyService/src/test" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="GalaxyService_main" />
@@ -24,7 +21,12 @@
     <orderEntry type="library" name="Gradle: org.apache.curator:curator-framework:4.0.1" level="project" />
     <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-log4j12:1.7.25" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.kafka:kafka_2.12:1.1.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.curator:curator-client:4.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.kafka:kafka-clients:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.yammer.metrics:metrics-core:2.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.typesafe.scala-logging:scala-logging_2.12:3.7.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.101tec:zkclient:0.10" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.zookeeper:zookeeper:3.5.3-beta" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.5" level="project" />
@@ -38,10 +40,15 @@
     <orderEntry type="library" name="Gradle: org.springframework:spring-core:5.0.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: log4j:log4j:1.2.17" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project" />
+    <orderEntry type="library" name="Gradle: net.sf.jopt-simple:jopt-simple:5.0.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.scala-lang:scala-reflect:2.12.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.scala-lang:scala-library:2.12.4" level="project" />
     <orderEntry type="library" name="Gradle: org.javassist:javassist:3.20.0-GA" level="project" />
     <orderEntry type="library" name="Gradle: org.jboss.netty:netty:3.2.5.Final" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-jcl:5.0.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: com.google.guava:guava:20.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.lz4:lz4-java:1.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.xerial.snappy:snappy-java:1.1.7.1" level="project" />
     <orderEntry type="library" name="Gradle: commons-cli:commons-cli:1.2" level="project" />
     <orderEntry type="library" name="Gradle: io.netty:netty:3.10.5.Final" level="project" />
   </component>
