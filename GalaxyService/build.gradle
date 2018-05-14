@@ -26,6 +26,7 @@ dependencies {
             'org.slf4j:slf4j-log4j12:1.7.25',
             'com.fasterxml.jackson.core:jackson-core:2.9.5',
             'com.fasterxml.jackson.core:jackson-databind:2.9.5',
+            'org.springframework.kafka:spring-kafka:2.1.6.RELEASE',
             'org.apache.kafka:kafka_2.12:1.1.0')
     compile('com.alibaba:dubbo:2.6.1') {
         exclude group: 'org.springframework', module: 'spring-context'
