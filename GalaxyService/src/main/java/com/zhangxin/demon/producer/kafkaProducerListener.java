@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.kafka.support.ProducerListener;
 
 public class kafkaProducerListener implements ProducerListener {
-    protected final Logger LOG = LoggerFactory.getLogger("kafkaProducer");
+    protected final Logger LOG = LoggerFactory.getLogger(kafkaProducerListener.class);
     @Override
     public void onSuccess(String topic, Integer partition, Object key, Object value, RecordMetadata recordMetadata) {
         LOG.info("==========kafka发送数据成功（日志开始）==========");

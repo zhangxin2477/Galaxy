@@ -10,6 +10,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.io.IOException;
 import java.util.Map;
+import java.util.Scanner;
 
 public class Application {
     private static final Logger log = LoggerFactory.getLogger(Application.class);
@@ -24,22 +25,19 @@ public class Application {
             log.info(org.toString());
         }
 
-        KafkaProducerService kafkaProducer = new KafkaProducerService();
-        String topic = "orderTopic";
-        String value = "test";
-        String ifPartition = "0";
-        Integer partitionNum = 3;
-        String role = "test";//用来生成key
-        Map<String,Object> res = kafkaProducer.sendMessageForTemplate
-                (topic, value, ifPartition, partitionNum, role);
+        KafkaProducerService kafkaProducer = context.getBean(KafkaProducerService.class);
+        kafkaProducer.sender("my-topic","1","welcome");
 
-        System.out.println("测试结果如下：===============");
-        String message = (String)res.get("message");
-        String code = (String)res.get("code");
-
-        System.out.println("code:"+code);
-        System.out.println("message:"+message);
-
-        System.in.read();
+        Scanner scan = new Scanner(System.in);
+        while (true){
+            String s=scan.nextLine();
+            switch (s){
+                case "exit":
+                    return;
+                case "go":
+                    kafkaProducer.sender("my-topic",s,s);
+                    break;
+            }
+        }
     }
 }

@@ -8,7 +8,8 @@
             <map>
                 <entry key="bootstrap.servers" value="111.231.193.179:9092"></entry>
                 <entry key="group.id" value="1"></entry>
-                <entry key="enable.auto.commit" value="false"></entry>
+                <entry key="enable.auto.commit" value="true"></entry>
+                <entry key="auto.commit.interval.ms" value="1000"></entry>
                 <entry key="session.timeout.ms" value="15000"></entry>
                 <entry key="key.deserializer" value="org.apache.kafka.common.serialization.StringDeserializer"></entry>
                 <entry key="value.deserializer"
@@ -23,14 +24,14 @@
         </constructor-arg>
     </bean>
     <!-- 实际执行消息消费的类 -->
-    <bean id="messageListernerConsumerService" class="com.zhangxin.demon.consumer.KafkaConsumerServer"></bean>
+    <bean id="kafkaConsumerServer" class="com.zhangxin.demon.consumer.KafkaConsumerServer"></bean>
     <!-- 消费者容器配置信息 -->
     <bean id="containerProperties" class="org.springframework.kafka.listener.config.ContainerProperties">
-        <constructor-arg value="defaultTopic"></constructor-arg>
-        <property name="messageListener" ref="messageListernerConsumerService"></property>
+        <constructor-arg value="my-topic"></constructor-arg>
+        <property name="messageListener" ref="kafkaConsumerServer"></property>
     </bean>
     <!-- 创建messageListenerContainer bean，使用的时候，只需要注入这个bean -->
-    <bean id="messageListenerContainer" class="org.springframework.kafka.listener.KafkaMessageListenerContainer"
+    <bean id="kafkaMessageListenerContainer" class="org.springframework.kafka.listener.KafkaMessageListenerContainer"
           init-method="doStart">
         <constructor-arg ref="consumerFactory"></constructor-arg>
         <constructor-arg ref="containerProperties"></constructor-arg>
