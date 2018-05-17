@@ -4,15 +4,15 @@
     <facet type="Spring" name="Spring">
       <configuration>
         <fileset id="fileset" name="Spring Application Context" removed="false">
-          <file>file://$MODULE_DIR$/../../GalaxyWeb/src/main/resources/spring_consumer.xml</file>
           <file>file://$MODULE_DIR$/../../GalaxyWeb/src/main/resources/spring_config.xml</file>
+          <file>file://$MODULE_DIR$/../../GalaxyWeb/src/main/resources/spring_dubbo.xml</file>
         </fileset>
       </configuration>
     </facet>
     <facet type="web" name="Web Gradle : GalaxyWeb-1.0-SNAPSHOT.war">
       <configuration>
         <webroots>
-          <root url="file://D:\GitHub\Galaxy\GalaxyWeb\src\main\webapp" relative="/" />
+          <root url="file://C:\Users\Administrator\Documents\GitHub\Galaxy\GalaxyWeb\src\main\webapp" relative="/" />
         </webroots>
       </configuration>
     </facet>
