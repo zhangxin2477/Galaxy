@@ -12,7 +12,7 @@ import java.io.IOException;
 public class ApplicationConsumer {
     private static final Logger log = LoggerFactory.getLogger(ApplicationConsumer.class);
     public static void main(String[] args) throws IOException {
-        ApplicationContext applicationContext=new ClassPathXmlApplicationContext("spring_consumer.xml");
+        ApplicationContext applicationContext=new ClassPathXmlApplicationContext("spring_config.xml");
         ((ClassPathXmlApplicationContext) applicationContext).start();
         DemonService demonService = (DemonService) applicationContext.getBean("demonService");
         Org org = demonService.getOrg(1);

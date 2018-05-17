@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <!-- 指定生成者 -->
+    <dubbo:application name="demon-provider"></dubbo:application>
+    <!-- 连接到哪个注册中心 -->
+    <dubbo:registry address="zookeeper://111.231.193.179:2181?backup=192.168.3.72:2181,192.168.3.73:2181,192.168.3.74:2181"></dubbo:registry>
+    <!--<dubbo:reference interface="com.zhangxin.demon.service.DemonService" id="demonService" check="false"></dubbo:reference>-->
+    <!-- 扫描注解包路径，多个包用逗号分隔，不填package表示扫描当前ApplicationContext中的所有类 -->
+    <dubbo:annotation package="com.zhangxin.demon"></dubbo:annotation>
+</beans>

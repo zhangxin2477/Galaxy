@@ -9,14 +9,13 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.io.IOException;
-import java.util.Map;
 import java.util.Scanner;
 
 public class Application {
     private static final Logger log = LoggerFactory.getLogger(Application.class);
 
     public static void main(String[] args) throws IOException {
-        ApplicationContext context = new ClassPathXmlApplicationContext("spring_service.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("spring_config.xml");
         ((ClassPathXmlApplicationContext) context).start();
         log.info("服务已启动...");
         DemonService demonService = context.getBean(DemonService.class);
