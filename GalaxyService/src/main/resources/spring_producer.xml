@@ -6,7 +6,7 @@
     <bean id="producerProperties" class="java.util.HashMap">
         <constructor-arg>
             <map>
-                <entry key="bootstrap.servers" value="111.231.193.179:9092" />
+                <entry key="bootstrap.servers" value="111.231.193.179:9092,192.168.3.72:9092,192.168.3.73:9092,192.168.3.74:9092" />
                 <entry key="group.id" value="1" />
                 <entry key="retries" value="1" />
                 <entry key="batch.size" value="16384" />
