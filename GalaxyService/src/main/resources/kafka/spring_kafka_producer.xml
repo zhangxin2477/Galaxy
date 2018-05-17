@@ -36,5 +36,5 @@
         <property name="producerListener" ref="producerListener"/>
     </bean>
 
-    <bean id="producerListener" class="com.zhangxin.demon.producer.kafkaProducerListener" />
+    <bean id="producerListener" class="com.zhangxin.demon.producer.KafkaProducerListener" />
 </beans>

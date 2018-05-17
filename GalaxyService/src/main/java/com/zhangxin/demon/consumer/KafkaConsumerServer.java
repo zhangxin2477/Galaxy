@@ -12,7 +12,7 @@ public class KafkaConsumerServer implements MessageListener<String,String> {
     @Override
     public void onMessage(ConsumerRecord<String
             , String> record) {
-        logger.info("KafkaConsumerServer=============kafkaConsumer开始消费=============");
+        logger.info("=============开始消费=============");
         String topic = record.topic();
         String key = record.key();
         String value = record.value();
@@ -24,6 +24,5 @@ public class KafkaConsumerServer implements MessageListener<String,String> {
         logger.info("KafkaConsumerServer-------------offset:"+offset);
         logger.info("KafkaConsumerServer-------------partition:"+partition);
         logger.info("~~~~~~~~~~~~~kafkaConsumer消费结束~~~~~~~~~~~~~");
-        logger.info("消费成功***************************************************************");
     }
 }
