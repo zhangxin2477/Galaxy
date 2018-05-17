@@ -8,7 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
-@Service(version = "1.0",interfaceClass = DemonService.class)
+@Service(version = "1.0",interfaceClass = DemonService.class,timeout = 10000)
 public class DemonServiceImpl implements DemonService {
     private static final Logger log = LoggerFactory.getLogger(DemonServiceImpl.class);
 

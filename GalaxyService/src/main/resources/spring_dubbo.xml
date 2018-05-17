@@ -2,14 +2,16 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
     <!-- 应用名 -->
     <dubbo:application name="demon-provider"></dubbo:application>
     <!-- 连接到哪个注册中心 -->
-    <dubbo:registry address="zookeeper://111.231.193.179:2181?backup=192.168.3.72:2181,192.168.3.73:2181,192.168.3.74:2181"></dubbo:registry>
+    <dubbo:registry
+            address="zookeeper://111.231.193.179:2181?backup=192.168.3.75:2181,192.168.3.76:2181,192.168.3.77:2181"></dubbo:registry>
     <!-- 用dubbo协议在20880端口暴露服务 -->
-    <dubbo:protocol name="dubbo" port="20880"></dubbo:protocol>
+    <dubbo:protocol name="dubbo" host="192.168.3.64" port="20880"></dubbo:protocol>
     <!-- 具体的实现bean -->
     <!--<bean id="demonService" class="com.zhangxin.demon.provider.DemonServiceImpl"></bean>-->
     <!-- 声明需要暴露的服务接口 -->
