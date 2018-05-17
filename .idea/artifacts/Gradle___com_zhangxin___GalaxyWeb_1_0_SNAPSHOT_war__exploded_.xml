@@ -25,23 +25,23 @@
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.5" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-context:5.0.6.RELEASE" />
-          <element id="library" level="project" name="Gradle: org.apache.curator:curator-framework:4.0.1" />
-          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-log4j12:1.7.25" />
-          <element id="library" level="project" name="Gradle: org.apache.curator:curator-client:4.0.1" />
-          <element id="library" level="project" name="Gradle: org.apache.zookeeper:zookeeper:3.5.3-beta" />
-          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.25" />
-          <element id="library" level="project" name="Gradle: com.alibaba:dubbo:2.6.1" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-aop:5.0.6.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-beans:5.0.6.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-expression:5.0.6.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-core:5.0.6.RELEASE" />
-          <element id="library" level="project" name="Gradle: log4j:log4j:1.2.17" />
-          <element id="library" level="project" name="Gradle: org.javassist:javassist:3.20.0-GA" />
-          <element id="library" level="project" name="Gradle: org.jboss.netty:netty:3.2.5.Final" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-jcl:5.0.6.RELEASE" />
-          <element id="library" level="project" name="Gradle: com.google.guava:guava:20.0" />
-          <element id="library" level="project" name="Gradle: commons-cli:commons-cli:1.2" />
-          <element id="library" level="project" name="Gradle: io.netty:netty:3.10.5.Final" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.curator/curator-framework/4.0.1/3da85d2bda41cb43dc18c089820b67d12ba38826/curator-framework-4.0.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-log4j12/1.7.25/110cefe2df103412849d72ef7a67e4e91e4266b4/slf4j-log4j12-1.7.25.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.curator/curator-client/4.0.1/e2e76f0f6803a3f5d06bc19e2a250c478ea24900/curator-client-4.0.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.zookeeper/zookeeper/3.5.3-beta/63ffc92b50e1da1b43d7728daeed72035b53e567/zookeeper-3.5.3-beta.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/dubbo/2.6.1/1951c97c3a016842f0a96ed1374eaf2ca6f7bf66/dubbo-2.6.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.20.0-GA/a9cbcdfb7e9f86fbc74d3afae65f2248bfbf82a0/javassist-3.20.0-GA.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.netty/netty/3.2.5.Final/60f6ce4af55b0fcd54dd6522cbf588de0387e2f5/netty-3.2.5.Final.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/20.0/89507701249388e1ed5ddcf8c41f4ce1be7831ef/guava-20.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.2/2bf96b7aa8b611c177d329452af1dc933e14501c/commons-cli-1.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty/3.10.5.Final/9ca7d55d246092bddd29b867706e2f6c7db701a0/netty-3.10.5.Final.jar" />
         </element>
       </element>
     </root>

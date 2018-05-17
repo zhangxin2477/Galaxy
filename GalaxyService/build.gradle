@@ -31,4 +31,5 @@ dependencies {
     compile('com.alibaba:dubbo:2.6.1') {
         exclude group: 'org.springframework', module: 'spring-context'
     }
+    compile('com.alibaba.hsf:LightApi:1.0.5')
 }

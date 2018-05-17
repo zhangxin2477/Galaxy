@@ -14,7 +14,7 @@ public class ApplicationConsumer {
     public static void main(String[] args) throws IOException {
         ApplicationContext applicationContext=new ClassPathXmlApplicationContext("spring_config.xml");
         ((ClassPathXmlApplicationContext) applicationContext).start();
-        DemonService demonService = (DemonService) applicationContext.getBean("demonService");
+        DemonService demonService = (DemonService) applicationContext.getBean("demonServiceImpl");
         Org org = demonService.getOrg(1);
         if (null != org) {
             log.info(org.toString());
