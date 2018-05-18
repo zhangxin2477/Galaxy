@@ -3,7 +3,9 @@ package com.zhangxin.demon.entity;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-public class User {
+import java.io.Serializable;
+
+public class User implements Serializable {
     private int id;
     private int org_id;
     private String name;

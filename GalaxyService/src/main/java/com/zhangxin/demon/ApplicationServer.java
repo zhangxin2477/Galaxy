@@ -1,7 +1,6 @@
 package com.zhangxin.demon;
 
 import com.zhangxin.demon.entity.Org;
-import com.zhangxin.demon.producer.KafkaProducerService;
 import com.zhangxin.demon.service.DemonService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,7 +23,7 @@ public class ApplicationServer {
         do{
             String s=scan.nextLine();
             switch (s){
-                case "dubbo":
+                case "org":
                     DemonService demonService = context.getBean(DemonService.class);
                     Org org = demonService.getOrg(1);
                     if (null != org) {
@@ -32,12 +31,12 @@ public class ApplicationServer {
                     }
                     break;
                 case "kafka":
-                    KafkaProducerService kafkaProducer = context.getBean(KafkaProducerService.class);
-                    kafkaProducer.sender("my-topic","1","welcome");
+                    demonService = context.getBean(DemonService.class);
+                    demonService.sender("my-topic","1","welcome");
                     break;
                 case "go":
-                    kafkaProducer = context.getBean(KafkaProducerService.class);
-                    kafkaProducer.sender("my-topic",s,s);
+                    demonService = context.getBean(DemonService.class);
+                    demonService.sender("my-topic",s,s);
                     break;
                 case "quit":
                     isRunning=false;

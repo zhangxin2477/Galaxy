@@ -38,10 +38,10 @@
           <element id="library" level="project" name="Gradle: log4j:log4j:1.2.17" />
           <element id="library" level="project" name="Gradle: org.javassist:javassist:3.20.0-GA" />
           <element id="library" level="project" name="Gradle: org.jboss.netty:netty:3.2.5.Final" />
-          <element id="library" level="project" name="Gradle: org.springframework:spring-jcl:5.0.6.RELEASE" />
           <element id="library" level="project" name="Gradle: com.google.guava:guava:20.0" />
           <element id="library" level="project" name="Gradle: commons-cli:commons-cli:1.2" />
           <element id="library" level="project" name="Gradle: io.netty:netty:3.10.5.Final" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-jcl:5.0.6.RELEASE" />
         </element>
       </element>
     </root>
