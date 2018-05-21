@@ -26,10 +26,10 @@
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-log4j12:1.7.25" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.kafka:kafka_2.12:1.1.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.curator:curator-client:4.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.kafka:kafka-clients:1.1.0" level="project" />
     <orderEntry type="library" name="Gradle: com.yammer.metrics:metrics-core:2.2.0" level="project" />
     <orderEntry type="library" name="Gradle: com.typesafe.scala-logging:scala-logging_2.12:3.7.2" level="project" />
     <orderEntry type="library" name="Gradle: com.101tec:zkclient:0.10" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.kafka:kafka-clients:1.1.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.zookeeper:zookeeper:3.5.3-beta" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.5" level="project" />
@@ -39,11 +39,11 @@
     <orderEntry type="library" name="Gradle: org.mortbay.jetty:jetty:7.0.0.pre5" level="project" />
     <orderEntry type="library" name="Gradle: com.google.protobuf:protobuf-java:2.6.0" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-tx:5.0.6.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework:spring-messaging:5.0.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-aop:5.0.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-messaging:5.0.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-beans:5.0.6.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.retry:spring-retry:1.2.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-expression:5.0.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.retry:spring-retry:1.2.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-core:5.0.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: aopalliance:aopalliance:1.0" level="project" />
     <orderEntry type="library" name="Gradle: log4j:log4j:1.2.17" level="project" />
@@ -56,8 +56,8 @@
     <orderEntry type="library" name="Gradle: javax.servlet:servlet-api:2.5" level="project" />
     <orderEntry type="library" name="Gradle: org.mortbay.jetty:servlet-api:3.0.pre4" level="project" />
     <orderEntry type="library" name="Gradle: org.mortbay.jetty:jetty-util:7.0.0.pre5" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.guava:guava:20.0" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-jcl:5.0.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:guava:20.0" level="project" />
     <orderEntry type="library" name="Gradle: org.lz4:lz4-java:1.4" level="project" />
     <orderEntry type="library" name="Gradle: org.xerial.snappy:snappy-java:1.1.7.1" level="project" />
     <orderEntry type="library" name="Gradle: commons-cli:commons-cli:1.2" level="project" />

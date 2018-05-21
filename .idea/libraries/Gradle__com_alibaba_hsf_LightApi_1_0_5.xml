@@ -2,12 +2,10 @@
   <library name="Gradle: com.alibaba.hsf:LightApi:1.0.5">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba.hsf/LightApi/1.0.5/4278ce65828d652d2af0b4448f3b3c360764266d/LightApi-1.0.5.jar!/" />
-      <root url="jar://D:/gradle-4.7/caches/modules-2/files-2.1/com.alibaba.hsf/LightApi/1.0.5/4278ce65828d652d2af0b4448f3b3c360764266d/LightApi-1.0.5.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba.hsf/LightApi/1.0.5/c5b05a8c8fdea911e94ba7191da7344b8d985862/LightApi-1.0.5-sources.jar!/" />
-      <root url="jar://D:/gradle-4.7/caches/modules-2/files-2.1/com.alibaba.hsf/LightApi/1.0.5/c5b05a8c8fdea911e94ba7191da7344b8d985862/LightApi-1.0.5-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
