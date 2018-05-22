@@ -7,8 +7,9 @@ import org.springframework.kafka.listener.MessageListener;
 import org.springframework.stereotype.Service;
 
 @Service
-public class KafkaConsumerServer implements MessageListener<String,String> {
-    private static Logger logger=LoggerFactory.getLogger(KafkaConsumerServer.class);
+public class KafkaConsumerServer implements MessageListener<String, String> {
+    private static Logger logger = LoggerFactory.getLogger(KafkaConsumerServer.class);
+
     @Override
     public void onMessage(ConsumerRecord<String
             , String> record) {
@@ -18,11 +19,11 @@ public class KafkaConsumerServer implements MessageListener<String,String> {
         String value = record.value();
         long offset = record.offset();
         int partition = record.partition();
-        logger.info("KafkaConsumerServer-------------topic:"+topic);
-        logger.info("KafkaConsumerServer-------------value:"+value);
-        logger.info("KafkaConsumerServer-------------key:"+key);
-        logger.info("KafkaConsumerServer-------------offset:"+offset);
-        logger.info("KafkaConsumerServer-------------partition:"+partition);
+        logger.info("KafkaConsumerServer-------------topic:" + topic);
+        logger.info("KafkaConsumerServer-------------value:" + value);
+        logger.info("KafkaConsumerServer-------------key:" + key);
+        logger.info("KafkaConsumerServer-------------offset:" + offset);
+        logger.info("KafkaConsumerServer-------------partition:" + partition);
         logger.info("~~~~~~~~~~~~~kafkaConsumer消费结束~~~~~~~~~~~~~");
     }
 }

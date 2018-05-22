@@ -8,7 +8,7 @@
     <!-- 连接到哪个注册中心 -->
     <dubbo:registry protocol="zookeeper" address="111.231.193.179:2181"></dubbo:registry>
     <!--设置超时时间 -->
-    <dubbo:provider timeout="60000"></dubbo:provider>
+    <dubbo:provider timeout="600000"></dubbo:provider>
     <dubbo:reference id="demonServiceImpl" interface="com.zhangxin.demon.service.DemonService"></dubbo:reference>
 
 </beans>

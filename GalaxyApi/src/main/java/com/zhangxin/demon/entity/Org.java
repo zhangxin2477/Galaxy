@@ -25,9 +25,9 @@ public class Org implements Serializable {
         this.org_name = org_name;
     }
 
-    public String toString(){
+    public String toString() {
         ObjectMapper mapper = new ObjectMapper();
-        String str= "";
+        String str = "";
         try {
             str = mapper.writeValueAsString(this);
         } catch (JsonProcessingException e) {

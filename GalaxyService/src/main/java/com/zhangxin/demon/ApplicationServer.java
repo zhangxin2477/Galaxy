@@ -13,16 +13,16 @@ import java.util.Scanner;
 public class ApplicationServer {
     private static final Logger log = LoggerFactory.getLogger(ApplicationServer.class);
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("spring_config.xml");
         ((ClassPathXmlApplicationContext) context).start();
         log.info("服务已启动...");
 
         Scanner scan = new Scanner(System.in);
-        boolean isRunning=true;
-        do{
-            String s=scan.nextLine();
-            switch (s){
+        boolean isRunning = true;
+        do {
+            String s = scan.nextLine();
+            switch (s) {
                 case "org":
                     DemonService demonService = context.getBean(DemonService.class);
                     Org org = demonService.getOrg(1);
@@ -32,17 +32,17 @@ public class ApplicationServer {
                     break;
                 case "kafka":
                     demonService = context.getBean(DemonService.class);
-                    demonService.sender("my-topic","1","welcome");
+                    demonService.sender("my-topic", "1", "welcome");
                     break;
                 case "go":
                     demonService = context.getBean(DemonService.class);
-                    demonService.sender("my-topic",s,s);
+                    demonService.sender("my-topic", s, s);
                     break;
                 case "quit":
-                    isRunning=false;
+                    isRunning = false;
                     break;
             }
-        }while (isRunning);
+        } while (isRunning);
         ((ClassPathXmlApplicationContext) context).stop();
         log.info("Bye!");
     }

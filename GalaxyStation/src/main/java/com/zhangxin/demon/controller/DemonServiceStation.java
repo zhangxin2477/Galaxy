@@ -18,9 +18,9 @@ public class DemonServiceStation {
     @Autowired
     private DemonService demonService;
 
-    @RequestMapping(value = "/",method = RequestMethod.GET)
+    @RequestMapping(value = "/", method = RequestMethod.GET)
     @ResponseBody
-    public String demon(){
+    public String demon() {
         Org org = demonService.getOrg(1);
         log.info(org.toString());
         return org.toString();

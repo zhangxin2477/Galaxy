@@ -20,11 +20,11 @@ public class DemonServiceImpl implements DemonService {
     private UserDao userDao;
 
     @Autowired
-    private KafkaTemplate<String,String> kafkaTemplate;
+    private KafkaTemplate<String, String> kafkaTemplate;
 
     @Override
     public void sender(String topic, String key, String value) {
-        kafkaTemplate.send(topic,key,value);
+        kafkaTemplate.send(topic, key, value);
     }
 
     @Override

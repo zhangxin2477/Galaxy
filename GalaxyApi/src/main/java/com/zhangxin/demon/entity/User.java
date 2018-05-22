@@ -63,9 +63,9 @@ public class User implements Serializable {
         this.org_id = org_id;
     }
 
-    public String toString(){
+    public String toString() {
         ObjectMapper mapper = new ObjectMapper();
-        String str= "";
+        String str = "";
         try {
             str = mapper.writeValueAsString(this);
         } catch (JsonProcessingException e) {
