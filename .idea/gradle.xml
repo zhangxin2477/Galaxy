@@ -27,12 +27,12 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/GalaxyWeb" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/GalaxyStation" />
         <option name="gradleHome" value="D:/gradle-4.7" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/GalaxyApi" />
-            <option value="$PROJECT_DIR$/GalaxyWeb" />
+            <option value="$PROJECT_DIR$/GalaxyStation" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />

@@ -4,15 +4,15 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Galaxy.iml" filepath="$PROJECT_DIR$/.idea/Galaxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/GalaxyApi.iml" filepath="$PROJECT_DIR$/.idea/modules/GalaxyApi.iml" group="GalaxyApi" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GalaxyApi_main.iml" filepath="$PROJECT_DIR$/.idea/modules/GalaxyApi_main.iml" group="GalaxyApi" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GalaxyApi_test.iml" filepath="$PROJECT_DIR$/.idea/modules/GalaxyApi_test.iml" group="GalaxyApi" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1749613953/GalaxyApi_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1749613953/GalaxyApi_main.iml" group="GalaxyApi" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1749613953/GalaxyApi_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-1749613953/GalaxyApi_test.iml" group="GalaxyApi" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/GalaxyService.iml" filepath="$PROJECT_DIR$/.idea/modules/GalaxyService.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/GalaxyService_main.iml" filepath="$PROJECT_DIR$/.idea/modules/GalaxyService_main.iml" group="GalaxyService" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/GalaxyService_test.iml" filepath="$PROJECT_DIR$/.idea/modules/GalaxyService_test.iml" group="GalaxyService" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GalaxyStation.iml" filepath="$PROJECT_DIR$/.idea/modules/GalaxyStation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GalaxyStation_main.iml" filepath="$PROJECT_DIR$/.idea/modules/GalaxyStation_main.iml" group="GalaxyStation" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GalaxyStation_test.iml" filepath="$PROJECT_DIR$/.idea/modules/GalaxyStation_test.iml" group="GalaxyStation" />
       <module fileurl="file://$PROJECT_DIR$/GalaxyView/GalaxyView.iml" filepath="$PROJECT_DIR$/GalaxyView/GalaxyView.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GalaxyWeb.iml" filepath="$PROJECT_DIR$/.idea/modules/GalaxyWeb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GalaxyWeb_main.iml" filepath="$PROJECT_DIR$/.idea/modules/GalaxyWeb_main.iml" group="GalaxyWeb" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GalaxyWeb_test.iml" filepath="$PROJECT_DIR$/.idea/modules/GalaxyWeb_test.iml" group="GalaxyWeb" />
     </modules>
   </component>
 </project>

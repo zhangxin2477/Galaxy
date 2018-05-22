@@ -2,14 +2,12 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="Demon_main" target="1.8" />
-      <module name="Demon_test" target="1.8" />
       <module name="GalaxyApi_main" target="1.8" />
       <module name="GalaxyApi_test" target="1.8" />
       <module name="GalaxyService_main" target="1.8" />
       <module name="GalaxyService_test" target="1.8" />
-      <module name="GalaxyWeb_main" target="1.8" />
-      <module name="GalaxyWeb_test" target="1.8" />
+      <module name="GalaxyStation_main" target="1.8" />
+      <module name="GalaxyStation_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
