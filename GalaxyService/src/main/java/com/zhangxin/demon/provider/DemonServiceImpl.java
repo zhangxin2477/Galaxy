@@ -23,13 +23,21 @@ public class DemonServiceImpl implements DemonService {
     private KafkaTemplate<String, String> kafkaTemplate;
 
     @Override
+    public String hello(String say) {
+        return say;
+    }
+
+    @Override
     public void sender(String topic, String key, String value) {
         kafkaTemplate.send(topic, key, value);
     }
 
     @Override
     public Org getOrg(int id) {
-        return userDao.getOrg(id);
+        log.info("数据库开始");
+        Org org=userDao.getOrg(id);
+        log.info("数据库结束");
+        return org;
     }
 
     @Override

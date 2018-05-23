@@ -7,14 +7,13 @@ import org.slf4j.LoggerFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import java.io.IOException;
 import java.util.Scanner;
 
 public class ApplicationServer {
     private static final Logger log = LoggerFactory.getLogger(ApplicationServer.class);
 
     public static void main(String[] args) {
-        ApplicationContext context = new ClassPathXmlApplicationContext("spring_config.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
         ((ClassPathXmlApplicationContext) context).start();
         log.info("服务已启动...");
 
