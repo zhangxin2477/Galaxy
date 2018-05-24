@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <!-- 应用名 -->
+    <dubbo:application name="demon-provider" logger="slf4j"/>
+
+    <!-- 注册中心配置 -->
+    <dubbo:registry id="registry1" protocol="zookeeper" address="111.231.193.179:2181" timeout="5000" session="60000"/>
+
+    <!-- 服务提供者协议配置 -->
+    <dubbo:protocol id="protocol1" name="dubbo" port="20880" server="netty" threads="100" accepts="1000" serialization="kryo" buffer="8192" register="true"/>
+
+    <!-- 扫描注解包路径，多个包用逗号分隔，不填pacakge表示当前ApplicationContext中所有的类 -->
+    <dubbo:annotation package="com.zhangxin.demon.provider"/>
+    <!-- 声明需要暴露的服务接口 -->
+    <dubbo:service interface="com.zhangxin.demon.service.DemonService" ref="demonServiceImpl" protocol="protocol1" connections="100" group="demon" registry="registry1" register="true"/>
+
+    <!--服务提供者缺省值配置 -->
+    <dubbo:provider id="provider1" delay="-1" timeout="1000" retries="2" charset="UTF-8" loadbalance="leastactive"/>
+</beans>

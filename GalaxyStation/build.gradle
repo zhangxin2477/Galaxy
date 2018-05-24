@@ -25,4 +25,5 @@ dependencies {
     compile('com.alibaba:dubbo:2.6.1') {
         exclude group: 'org.springframework', module: 'spring-context'
     }
+    compile group: 'com.esotericsoftware', name: 'kryo', version: '4.0.2'
 }

@@ -9,7 +9,7 @@
             base-package="com.zhangxin.demon,com.zhangxin.demon.provider"></context:component-scan>
 
     <import resource="classpath:data/spring_database.xml"></import>
-    <import resource="classpath:dubbo/spring_dubbo.xml"></import>
+    <import resource="classpath:dubbo/dubbo_provider.xml"></import>
     <import resource="classpath:kafka/spring_kafka_consumer.xml"></import>
     <import resource="classpath:kafka/spring_kafka_producer.xml"></import>
 

@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class ApplicationClient {
     private static final Logger log = LoggerFactory.getLogger(ApplicationClient.class);
     public static void main(String[] args) throws IOException {
-        ApplicationContext applicationContext=new ClassPathXmlApplicationContext("spring_dubbo.xml");
+        ApplicationContext applicationContext=new ClassPathXmlApplicationContext("dubbo_consumer.xml");
         ((ClassPathXmlApplicationContext) applicationContext).start();
         DemonService demonService = applicationContext.getBean(DemonService.class);
         log.info("客户端启动...");

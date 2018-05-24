@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <!-- 消费者应用信息配置 -->
+    <dubbo:application name="demon-cunsumer" logger="slf4j"/>
+    <!-- 注册中心配置 -->
+    <dubbo:registry id="registry1" protocol="zookeeper" address="111.231.193.179:2181" timeout="5000" session="60000"/>
+
+    <!--服务消费者引用服务配置-->
+    <dubbo:reference id="demonServiceImpl" interface="com.zhangxin.demon.service.DemonService" group="demon" connections="100" client="netty" registry="registry1"/>
+
+    <!--服务消费者缺省值配置-->
+    <dubbo:consumer timeout="1000" retries="2" loadbalance="leastactive" connections="100" />
+
+</beans>
