@@ -9,9 +9,9 @@
     <dubbo:registry id="registry1" protocol="zookeeper" address="111.231.193.179:2181" timeout="5000" session="60000"/>
 
     <!--服务消费者引用服务配置-->
-    <dubbo:reference id="demonServiceImpl" interface="com.zhangxin.demon.service.DemonService" group="demon" connections="100" client="netty" registry="registry1"/>
+    <dubbo:reference id="demonServiceImpl" interface="com.zhangxin.demon.service.DemonService" group="demon" connections="100" registry="registry1"/>
 
     <!--服务消费者缺省值配置-->
-    <dubbo:consumer timeout="1000" retries="2" loadbalance="leastactive" connections="100" />
+    <dubbo:consumer client="netty4" timeout="1000" retries="2" loadbalance="leastactive" connections="100" />
 
 </beans>

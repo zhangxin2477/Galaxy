@@ -9,24 +9,27 @@ public class User implements Serializable {
     private int id;
     private int org_id;
     private String name;
+    private String password;
     private int age;
 
     public User() {
         super();
     }
 
-    public User(int org_id, String name, int age) {
+    public User(int org_id, String name, String password, int age) {
         super();
         this.org_id = org_id;
         this.name = name;
+        this.password = password;
         this.age = age;
     }
 
-    public User(int id, int org_id, String name, int age) {
+    public User(int id, int org_id, String name, String password, int age) {
         super();
         this.id = id;
         this.org_id = org_id;
         this.name = name;
+        this.password = password;
         this.age = age;
     }
 
@@ -72,5 +75,13 @@ public class User implements Serializable {
             e.printStackTrace();
         }
         return str;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 }

@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Galaxy.iml" filepath="$PROJECT_DIR$/.idea/Galaxy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GalaxyApi.iml" filepath="$PROJECT_DIR$/.idea/modules/GalaxyApi.iml" group="GalaxyApi" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GalaxyApi.iml" filepath="$PROJECT_DIR$/.idea/modules/GalaxyApi.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1749613953/GalaxyApi_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1749613953/GalaxyApi_main.iml" group="GalaxyApi" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1749613953/GalaxyApi_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-1749613953/GalaxyApi_test.iml" group="GalaxyApi" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/GalaxyService.iml" filepath="$PROJECT_DIR$/.idea/modules/GalaxyService.iml" />

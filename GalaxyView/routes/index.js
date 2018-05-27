@@ -6,7 +6,7 @@ var router = express.Router();
 var options = {
     hostname: 'localhost',
     port: 8080,
-    path: '/',
+    path: '/1',
     method: 'GET'
 };
 

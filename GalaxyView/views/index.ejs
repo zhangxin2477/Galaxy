@@ -1,11 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <script type="text/javascript" src='/javascript/galaxy.js'></script>
 </head>
 <body>
 <h1><%= body %></h1>
 <p>Welcome to <%= title %></p>
+
+<table>
+    <tr>
+        <td>姓名：</td>
+        <td><input id="name" type="text" value="name"/></td>
+    </tr>
+    <tr>
+        <td>密码：</td>
+        <td><input id="password" type="password" value="1229"/></td>
+    </tr>
+    <tr>
+        <td><input id="login" type="button" value="登录"/></td>
+    </tr>
+</table>
+
 </body>
 </html>

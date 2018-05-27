@@ -19,7 +19,10 @@ public interface UserDao {
     int delete(int id);
 
     @Select("select * from user where id=#{id}")
-    User getUser(int id);
+    User getUserById(int id);
+
+    @Select("select * from user where name=#{name} and password=#{pw}")
+    User getUserByNp(String name,String pw);
 
     @Select("select * from user")
     List<User> getUserList();

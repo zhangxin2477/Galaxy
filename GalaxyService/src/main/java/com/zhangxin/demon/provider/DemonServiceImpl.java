@@ -19,7 +19,7 @@ public class DemonServiceImpl implements DemonService {
     @Autowired
     private UserDao userDao;
 
-    @Autowired
+    //@Autowired
     private KafkaTemplate<String, String> kafkaTemplate;
 
     @Override
@@ -42,6 +42,11 @@ public class DemonServiceImpl implements DemonService {
 
     @Override
     public User getUser(int id) {
-        return userDao.getUser(id);
+        return userDao.getUserById(id);
+    }
+
+    @Override
+    public User login(String name, String pw) {
+        return userDao.getUserByNp(name, pw);
     }
 }

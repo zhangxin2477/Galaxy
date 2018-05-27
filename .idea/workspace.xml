@@ -3,22 +3,22 @@
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="Gradle : com.zhangxin : GalaxyStation-1.0-SNAPSHOT.war" />
-      <artifact name="Gradle : com.zhangxin : GalaxyStation-1.0-SNAPSHOT.war (exploded)" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90a2456e-6ee3-4756-bdf6-6848cdf5ab79" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/GalaxyApi.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/GalaxyService.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_esotericsoftware_kryo_4_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_esotericsoftware_minlog_1_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_esotericsoftware_reflectasm_1_11_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxyService/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxyStation/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_all_4_0_56_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GalaxyView/public/javascript/galaxy.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___com_zhangxin___GalaxyStation_1_0_SNAPSHOT_war__exploded_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___com_zhangxin___GalaxyStation_1_0_SNAPSHOT_war__exploded_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_esotericsoftware_kryo_4_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_esotericsoftware_minlog_1_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_esotericsoftware_reflectasm_1_11_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/-1749613953/GalaxyApi_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/-1749613953/GalaxyApi_main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/-1749613953/GalaxyApi_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/-1749613953/GalaxyApi_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/GalaxyApi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/GalaxyApi.iml" afterDir="false" />
@@ -27,14 +27,22 @@
       <change beforePath="$PROJECT_DIR$/.idea/modules/GalaxyStation_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/GalaxyStation_main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/GalaxyStation_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/GalaxyStation_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GalaxyApi/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/GalaxyApi/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GalaxyApi/src/main/java/com/zhangxin/demon/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/GalaxyApi/src/main/java/com/zhangxin/demon/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GalaxyApi/src/main/java/com/zhangxin/demon/service/DemonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/GalaxyApi/src/main/java/com/zhangxin/demon/service/DemonService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GalaxyService/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/GalaxyService/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GalaxyService/src/main/java/com/zhangxin/demon/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/GalaxyService/src/main/java/com/zhangxin/demon/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GalaxyService/src/main/java/com/zhangxin/demon/provider/DemonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/GalaxyService/src/main/java/com/zhangxin/demon/provider/DemonServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GalaxyService/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GalaxyService/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GalaxyService/src/main/resources/dubbo/spring_dubbo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GalaxyService/src/main/resources/dubbo/dubbo_provider.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GalaxyService/src/main/resources/dubbo/dubbo_provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GalaxyService/src/main/resources/dubbo/dubbo_provider.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GalaxyService/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/GalaxyService/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GalaxyStation/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/GalaxyStation/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GalaxyStation/src/main/java/com/zhangxin/demon/controller/ApplicationClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/GalaxyStation/src/main/java/com/zhangxin/demon/controller/ApplicationClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GalaxyStation/src/main/resources/spring_dubbo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GalaxyStation/src/main/resources/dubbo_consumer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GalaxyStation/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GalaxyStation/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GalaxyStation/src/main/java/com/zhangxin/demon/controller/DemonServiceStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/GalaxyStation/src/main/java/com/zhangxin/demon/controller/DemonServiceStation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GalaxyStation/src/main/resources/dubbo_consumer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GalaxyStation/src/main/resources/dubbo_consumer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GalaxyStation/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/GalaxyStation/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GalaxyView/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/GalaxyView/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GalaxyView/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/GalaxyView/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GalaxyView/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/GalaxyView/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GalaxyView/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/GalaxyView/views/index.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/GalaxyApi/.gradle/" />
     <ignored path="$PROJECT_DIR$/GalaxyApi/build/" />
@@ -51,6 +59,43 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="腾讯云" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="腾讯云" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="腾讯云" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="galaxy: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="腾讯云" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="galaxy: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="user: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/GalaxyApi">
@@ -81,61 +126,57 @@
       </state>
     </system>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Galaxy" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="dubbo_provider.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GalaxyService/src/main/resources/dubbo/dubbo_provider.xml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GalaxyView/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="86" selection-start-line="11" selection-start-column="86" selection-end-line="11" selection-end-column="86" />
+            <state relative-caret-position="210">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dubbo_consumer.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GalaxyStation/src/main/resources/dubbo_consumer.xml">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GalaxyView/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="87" selection-start-line="8" selection-start-column="87" selection-end-line="8" selection-end-column="87" />
+            <state relative-caret-position="60">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApplicationClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GalaxyStation/src/main/java/com/zhangxin/demon/controller/ApplicationClient.java">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GalaxyView/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="16" column="92" selection-start-line="16" selection-start-column="92" selection-end-line="16" selection-end-column="92" />
+            <state relative-caret-position="424">
+              <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GalaxyView/routes/users.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DemonServiceStation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GalaxyStation/src/main/java/com/zhangxin/demon/controller/DemonServiceStation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
+                <element signature="e#696#697#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplicationServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GalaxyService/src/main/java/com/zhangxin/demon/ApplicationServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GalaxyStation/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GalaxyService/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="40" column="73" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -146,8 +187,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>success</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -155,18 +203,36 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$/GalaxyService" value="D:\gradle-4.7" />
-        <entry key="$PROJECT_DIR$/GalaxyStation" value="D:\gradle-4.7" />
+        <entry key="$PROJECT_DIR$/GalaxyApi" value="$USER_HOME$/gradle-4.7" />
+        <entry key="$PROJECT_DIR$/GalaxyService" value="$USER_HOME$/gradle-4.7" />
+        <entry key="$PROJECT_DIR$/GalaxyStation" value="$USER_HOME$/gradle-4.7" />
       </map>
     </option>
     <option name="myGradleVersions">
       <map>
+        <entry key="$PROJECT_DIR$/GalaxyApi" value="4.7" />
         <entry key="$PROJECT_DIR$/GalaxyService" value="4.7" />
         <entry key="$PROJECT_DIR$/GalaxyStation" value="4.7" />
       </map>
     </option>
     <option name="availableProjects">
       <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="GalaxyApi" />
+              <option name="path" value="$PROJECT_DIR$/GalaxyApi" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="GalaxyApi" />
+                <option name="path" value="$PROJECT_DIR$/GalaxyApi" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
         <entry>
           <key>
             <ExternalProjectPojo>
@@ -215,129 +281,139 @@
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':GalaxyApi'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyStation" />
-                <option name="name" value=":GalaxyApi:components" />
+                <option name="description" value="Displays the components produced by root project 'GalaxyApi'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyApi" />
+                <option name="name" value="components" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyStation" />
-                <option name="name" value=":GalaxyApi:buildDependents" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyApi" />
+                <option name="name" value="buildDependents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':GalaxyApi'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyStation" />
-                <option name="name" value=":GalaxyApi:projects" />
+                <option name="description" value="Displays the sub-projects of root project 'GalaxyApi'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyApi" />
+                <option name="name" value="projects" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyStation" />
-                <option name="name" value=":GalaxyApi:classes" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyApi" />
+                <option name="name" value="classes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':GalaxyApi'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyStation" />
-                <option name="name" value=":GalaxyApi:dependentComponents" />
+                <option name="description" value="Displays the dependent components of components in root project 'GalaxyApi'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyApi" />
+                <option name="name" value="dependentComponents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':GalaxyApi'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyStation" />
-                <option name="name" value=":GalaxyApi:buildEnvironment" />
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'GalaxyApi'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyApi" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyApi" />
+                <option name="name" value="wrapper" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyStation" />
-                <option name="name" value=":GalaxyApi:testClasses" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyApi" />
+                <option name="name" value="testClasses" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyStation" />
-                <option name="name" value=":GalaxyApi:javadoc" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyApi" />
+                <option name="name" value="javadoc" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyStation" />
-                <option name="name" value=":GalaxyApi:jar" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyApi" />
+                <option name="name" value="jar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':GalaxyApi'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyStation" />
-                <option name="name" value=":GalaxyApi:model" />
+                <option name="description" value="Displays the configuration model of root project 'GalaxyApi'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyApi" />
+                <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyStation" />
-                <option name="name" value=":GalaxyApi:processResources" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyApi" />
+                <option name="name" value="processResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':GalaxyApi'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyStation" />
-                <option name="name" value=":GalaxyApi:tasks" />
+                <option name="description" value="Displays the tasks runnable from root project 'GalaxyApi'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyApi" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyApi" />
+                <option name="name" value="init" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyStation" />
-                <option name="name" value=":GalaxyApi:test" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyApi" />
+                <option name="name" value="test" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyStation" />
-                <option name="name" value=":GalaxyApi:compileJava" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyApi" />
+                <option name="name" value="compileJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':GalaxyApi'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyStation" />
-                <option name="name" value=":GalaxyApi:dependencyInsight" />
+                <option name="description" value="Displays the insight into a specific dependency in root project 'GalaxyApi'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyApi" />
+                <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyStation" />
-                <option name="name" value=":GalaxyApi:check" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyApi" />
+                <option name="name" value="check" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyStation" />
-                <option name="name" value=":GalaxyApi:assemble" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyApi" />
+                <option name="name" value="assemble" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyStation" />
-                <option name="name" value=":GalaxyApi:clean" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyApi" />
+                <option name="name" value="clean" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyStation" />
-                <option name="name" value=":GalaxyApi:compileTestJava" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyApi" />
+                <option name="name" value="compileTestJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':GalaxyApi'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyStation" />
-                <option name="name" value=":GalaxyApi:dependencies" />
+                <option name="description" value="Displays all dependencies declared in root project 'GalaxyApi'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyApi" />
+                <option name="name" value="dependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyStation" />
-                <option name="name" value=":GalaxyApi:processTestResources" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyApi" />
+                <option name="name" value="processTestResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyStation" />
-                <option name="name" value=":GalaxyApi:help" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyApi" />
+                <option name="name" value="help" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyStation" />
-                <option name="name" value=":GalaxyApi:build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyApi" />
+                <option name="name" value="build" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyStation" />
-                <option name="name" value=":GalaxyApi:buildNeeded" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyApi" />
+                <option name="name" value="buildNeeded" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':GalaxyApi'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyStation" />
-                <option name="name" value=":GalaxyApi:properties" />
+                <option name="description" value="Displays the properties of root project 'GalaxyApi'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/GalaxyApi" />
+                <option name="name" value="properties" />
               </ExternalTaskPojo>
             </list>
           </value>
@@ -633,22 +709,120 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/GalaxyApi" value="4580369106459" />
         <entry key="$PROJECT_DIR$/GalaxyApi/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/GalaxyApi/build.gradle" value="2549996650" />
         <entry key="$PROJECT_DIR$/GalaxyApi/settings.gradle" value="1259786012" />
-        <entry key="$PROJECT_DIR$/GalaxyService" value="9160883687566" />
+        <entry key="$PROJECT_DIR$/GalaxyService" value="9163189665000" />
         <entry key="$PROJECT_DIR$/GalaxyService/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/GalaxyService/build.gradle" value="2145412572" />
+        <entry key="$PROJECT_DIR$/GalaxyService/build.gradle" value="2500498699" />
         <entry key="$PROJECT_DIR$/GalaxyService/settings.gradle" value="1234619180" />
-        <entry key="$PROJECT_DIR$/GalaxyStation" value="9161472478113" />
+        <entry key="$PROJECT_DIR$/GalaxyStation" value="9163189686000" />
         <entry key="$PROJECT_DIR$/GalaxyStation/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/GalaxyStation/build.gradle" value="2816884851" />
+        <entry key="$PROJECT_DIR$/GalaxyStation/build.gradle" value="1292677284" />
         <entry key="$PROJECT_DIR$/GalaxyStation/settings.gradle" value="895824802" />
       </map>
     </option>
     <option name="projectBuildClasspath">
       <map>
+        <entry key="$PROJECT_DIR$/GalaxyApi">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$/GalaxyApi">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/GalaxyApi" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="GalaxyApi" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-persistent-cache-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-model-groovy-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-cli-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-process-services-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-base-services-groovy-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-native-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/groovy-all-2.4.12.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-resources-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-wrapper-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-kotlin-dsl-tooling-models-0.16.3.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-jvm-services-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-tooling-api-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-logging-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-core-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-core-api-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-messaging-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-launcher-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-model-core-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-base-services-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-runtime-api-info-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-kotlin-dsl-tooling-builders-0.16.3.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-build-cache-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-build-option-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/ant-launcher-1.9.9.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/ant-1.9.9.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-docs-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-kotlin-dsl-0.16.3.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-installation-beacon-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-signing-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-scala-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-diagnostics-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-build-cache-http-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-ivy-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-testing-native-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-testing-base-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-build-init-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-plugin-use-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-platform-base-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-publish-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-version-control-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-code-quality-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-build-comparison-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-language-native-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-ear-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-osgi-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-plugin-development-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-plugins-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-ide-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-javascript-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-workers-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-dependency-management-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-resources-gcs-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-resources-s3-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-testing-junit-platform-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-language-groovy-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-ide-native-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-antlr-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-composite-builds-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-announce-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-testing-jvm-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-language-jvm-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-platform-play-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-jacoco-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-platform-jvm-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-reporting-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-resources-sftp-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-tooling-api-builders-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-platform-native-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-language-java-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-ide-play-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-language-scala-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-resources-http-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-test-kit-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-maven-4.7.jar" />
+                  <option value="$PROJECT_DIR$/GalaxyApi/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/GalaxyApi/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/GalaxyService">
           <value>
             <ExternalProjectBuildClasspathPojo>
@@ -673,81 +847,81 @@
               <option name="name" value="GalaxyService" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="D:/gradle-4.7/lib/ant-1.9.9.jar" />
-                  <option value="D:/gradle-4.7/lib/ant-launcher-1.9.9.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-base-services-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-base-services-groovy-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-build-cache-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-build-option-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-cli-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-core-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-core-api-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-docs-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-installation-beacon-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-jvm-services-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-kotlin-dsl-0.16.3.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-kotlin-dsl-tooling-builders-0.16.3.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-kotlin-dsl-tooling-models-0.16.3.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-launcher-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-logging-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-messaging-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-model-core-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-model-groovy-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-native-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-persistent-cache-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-process-services-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-resources-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-runtime-api-info-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-tooling-api-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-wrapper-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/groovy-all-2.4.12.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-announce-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-antlr-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-build-cache-http-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-build-comparison-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-build-init-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-code-quality-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-composite-builds-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-dependency-management-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-diagnostics-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-ear-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-ide-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-ide-native-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-ide-play-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-ivy-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-jacoco-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-javascript-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-language-groovy-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-language-java-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-language-jvm-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-language-native-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-language-scala-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-maven-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-osgi-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-platform-base-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-platform-jvm-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-platform-native-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-platform-play-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-plugin-development-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-plugin-use-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-plugins-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-publish-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-reporting-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-resources-gcs-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-resources-http-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-resources-s3-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-resources-sftp-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-scala-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-signing-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-test-kit-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-testing-base-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-testing-junit-platform-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-testing-jvm-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-testing-native-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-tooling-api-builders-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-version-control-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-workers-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-persistent-cache-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-model-groovy-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-cli-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-process-services-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-base-services-groovy-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-native-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/groovy-all-2.4.12.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-resources-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-wrapper-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-kotlin-dsl-tooling-models-0.16.3.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-jvm-services-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-tooling-api-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-logging-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-core-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-core-api-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-messaging-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-launcher-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-model-core-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-base-services-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-runtime-api-info-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-kotlin-dsl-tooling-builders-0.16.3.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-build-cache-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-build-option-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/ant-launcher-1.9.9.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/ant-1.9.9.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-docs-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-kotlin-dsl-0.16.3.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-installation-beacon-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-signing-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-scala-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-diagnostics-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-build-cache-http-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-ivy-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-testing-native-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-testing-base-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-build-init-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-plugin-use-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-platform-base-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-publish-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-version-control-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-code-quality-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-build-comparison-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-language-native-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-ear-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-osgi-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-plugin-development-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-plugins-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-ide-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-javascript-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-workers-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-dependency-management-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-resources-gcs-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-resources-s3-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-testing-junit-platform-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-language-groovy-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-ide-native-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-antlr-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-composite-builds-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-announce-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-testing-jvm-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-language-jvm-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-platform-play-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-jacoco-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-platform-jvm-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-reporting-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-resources-sftp-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-tooling-api-builders-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-platform-native-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-language-java-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-ide-play-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-language-scala-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-resources-http-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-test-kit-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-maven-4.7.jar" />
                   <option value="$PROJECT_DIR$/GalaxyService/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/GalaxyService/buildSrc/src/main/groovy" />
                 </list>
@@ -779,81 +953,81 @@
               <option name="name" value="GalaxyStation" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="D:/gradle-4.7/lib/ant-1.9.9.jar" />
-                  <option value="D:/gradle-4.7/lib/ant-launcher-1.9.9.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-base-services-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-base-services-groovy-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-build-cache-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-build-option-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-cli-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-core-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-core-api-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-docs-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-installation-beacon-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-jvm-services-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-kotlin-dsl-0.16.3.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-kotlin-dsl-tooling-builders-0.16.3.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-kotlin-dsl-tooling-models-0.16.3.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-launcher-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-logging-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-messaging-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-model-core-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-model-groovy-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-native-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-persistent-cache-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-process-services-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-resources-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-runtime-api-info-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-tooling-api-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/gradle-wrapper-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/groovy-all-2.4.12.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-announce-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-antlr-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-build-cache-http-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-build-comparison-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-build-init-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-code-quality-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-composite-builds-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-dependency-management-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-diagnostics-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-ear-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-ide-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-ide-native-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-ide-play-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-ivy-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-jacoco-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-javascript-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-language-groovy-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-language-java-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-language-jvm-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-language-native-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-language-scala-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-maven-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-osgi-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-platform-base-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-platform-jvm-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-platform-native-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-platform-play-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-plugin-development-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-plugin-use-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-plugins-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-publish-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-reporting-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-resources-gcs-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-resources-http-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-resources-s3-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-resources-sftp-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-scala-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-signing-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-test-kit-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-testing-base-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-testing-junit-platform-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-testing-jvm-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-testing-native-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-tooling-api-builders-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-version-control-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/gradle-workers-4.7.jar" />
-                  <option value="D:/gradle-4.7/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-persistent-cache-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-model-groovy-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-cli-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-process-services-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-base-services-groovy-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-native-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/groovy-all-2.4.12.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-resources-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-wrapper-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-kotlin-dsl-tooling-models-0.16.3.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-jvm-services-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-tooling-api-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-logging-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-core-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-core-api-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-messaging-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-launcher-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-model-core-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-base-services-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-runtime-api-info-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-kotlin-dsl-tooling-builders-0.16.3.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-build-cache-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-build-option-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/ant-launcher-1.9.9.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/ant-1.9.9.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-docs-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-kotlin-dsl-0.16.3.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/gradle-installation-beacon-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-signing-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-scala-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-diagnostics-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-build-cache-http-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-ivy-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-testing-native-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-testing-base-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-build-init-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-plugin-use-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-platform-base-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-publish-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-version-control-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-code-quality-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-build-comparison-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-language-native-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-ear-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-osgi-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-plugin-development-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-plugins-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-ide-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-javascript-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-workers-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-dependency-management-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-resources-gcs-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-resources-s3-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-testing-junit-platform-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-language-groovy-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-ide-native-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-antlr-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-composite-builds-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-announce-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-testing-jvm-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-language-jvm-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-platform-play-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-jacoco-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-platform-jvm-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-reporting-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-resources-sftp-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-tooling-api-builders-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-platform-native-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-language-java-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-ide-play-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-language-scala-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-resources-http-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-test-kit-4.7.jar" />
+                  <option value="$USER_HOME$/gradle-4.7/lib/plugins/gradle-maven-4.7.jar" />
                   <option value="$PROJECT_DIR$/GalaxyStation/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/GalaxyStation/buildSrc/src/main/groovy" />
                 </list>
@@ -878,19 +1052,30 @@
         <option value="$PROJECT_DIR$/GalaxyStation/src/main/webapp/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/GalaxyStation/settings.gradle" />
         <option value="$PROJECT_DIR$/GalaxyStation/src/main/resources/spring_dubbo.xml" />
-        <option value="$PROJECT_DIR$/GalaxyApi/src/main/java/com/zhangxin/demon/service/DemonService.java" />
-        <option value="$PROJECT_DIR$/GalaxyService/src/main/java/com/zhangxin/demon/provider/DemonServiceImpl.java" />
-        <option value="$PROJECT_DIR$/GalaxyStation/src/main/java/com/zhangxin/demon/controller/ApplicationClient.java" />
         <option value="$PROJECT_DIR$/GalaxyService/src/main/resources/data/mybatisConfig.xml" />
         <option value="$PROJECT_DIR$/GalaxyService/src/main/resources/data/spring_database.xml" />
-        <option value="$PROJECT_DIR$/GalaxyStation/src/main/java/com/zhangxin/demon/controller/DemonServiceStation.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/GalaxyApi/build.gradle" />
         <option value="$PROJECT_DIR$/GalaxyService/src/main/resources/dubbo/spring_dubbo.xml" />
-        <option value="$PROJECT_DIR$/GalaxyService/build.gradle" />
+        <option value="$PROJECT_DIR$/GalaxyService/src/main/java/com/zhangxin/demon/provider/SerializationOptimizerImpl.java" />
+        <option value="$PROJECT_DIR$/GalaxyService/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/GalaxyStation/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/GalaxyApi/src/main/java/com/zhangxin/demon/SerializationOptimizerImpl.java" />
         <option value="$PROJECT_DIR$/GalaxyService/src/main/resources/dubbo/dubbo_provider.xml" />
-        <option value="$PROJECT_DIR$/GalaxyStation/src/main/resources/dubbo_consumer.xml" />
+        <option value="$PROJECT_DIR$/GalaxyApi/build.gradle" />
+        <option value="$PROJECT_DIR$/GalaxyService/build.gradle" />
         <option value="$PROJECT_DIR$/GalaxyStation/build.gradle" />
+        <option value="$PROJECT_DIR$/GalaxyService/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/GalaxyStation/src/main/resources/dubbo_consumer.xml" />
+        <option value="$PROJECT_DIR$/GalaxyStation/src/main/java/com/zhangxin/demon/controller/ApplicationClient.java" />
+        <option value="$PROJECT_DIR$/GalaxyApi/src/main/java/com/zhangxin/demon/entity/User.java" />
+        <option value="$PROJECT_DIR$/GalaxyService/src/main/java/com/zhangxin/demon/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/GalaxyApi/src/main/java/com/zhangxin/demon/service/DemonService.java" />
+        <option value="$PROJECT_DIR$/GalaxyService/src/main/java/com/zhangxin/demon/provider/DemonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/GalaxyStation/src/main/java/com/zhangxin/demon/controller/DemonServiceStation.java" />
+        <option value="$PROJECT_DIR$/GalaxyView/routes/index.js" />
+        <option value="$PROJECT_DIR$/GalaxyView/views/index.ejs" />
+        <option value="$PROJECT_DIR$/GalaxyView/app.js" />
+        <option value="$PROJECT_DIR$/GalaxyView/public/javascript/galaxy.js" />
       </list>
     </option>
   </component>
@@ -913,6 +1098,12 @@
     <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/GalaxyView/node_modules" />
   </component>
@@ -921,10 +1112,11 @@
       <path value="$PROJECT_DIR$/GalaxyView/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="500" />
-    <option name="width" value="1369" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="773" />
+    <option name="y" value="4" />
+    <option name="width" value="1147" />
+    <option name="height" value="1073" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -934,9 +1126,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -947,6 +1136,61 @@
             <path>
               <item name="Galaxy" type="b2602c69:ProjectViewProjectNode" />
               <item name="Galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="GalaxyApi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="GalaxyApi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="GalaxyApi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="GalaxyApi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="GalaxyApi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="GalaxyApi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demon" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="GalaxyApi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demon" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Galaxy" type="462c0819:PsiDirectoryNode" />
               <item name="GalaxyService" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -987,17 +1231,7 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demon" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="GalaxyService" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demon" type="462c0819:PsiDirectoryNode" />
-              <item name="producer" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Galaxy" type="b2602c69:ProjectViewProjectNode" />
@@ -1008,32 +1242,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demon" type="462c0819:PsiDirectoryNode" />
               <item name="provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="GalaxyService" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="GalaxyService" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="GalaxyService" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Galaxy" type="b2602c69:ProjectViewProjectNode" />
@@ -1080,92 +1288,55 @@
             </path>
             <path>
               <item name="Galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="GalaxyView" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.alibaba:dubbo:2.6.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="Galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="GalaxyView" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.alibaba:dubbo:2.6.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="dubbo-2.6.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="GalaxyView" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="javascript" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.alibaba:dubbo:2.6.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="dubbo-2.6.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="Galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="GalaxyView" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.alibaba:dubbo:2.6.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="dubbo-2.6.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.alibaba:dubbo:2.6.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="dubbo-2.6.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.alibaba:dubbo:2.6.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="dubbo-2.6.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="serialize" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.alibaba:dubbo:2.6.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="dubbo-2.6.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="serialize" type="462c0819:PsiDirectoryNode" />
-              <item name="kryo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.alibaba:dubbo:2.6.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="dubbo-2.6.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="serialize" type="462c0819:PsiDirectoryNode" />
-              <item name="kryo" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="Galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="GalaxyView" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/GalaxyService/META-INF/MANIFEST.MF" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1189,7 +1360,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ApplicationClient">
+  <component name="RunManager" selected="Node.js.www">
     <configuration name="ApplicationClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhangxin.demon.controller.ApplicationClient" />
       <module name="GalaxyStation_main" />
@@ -1333,9 +1504,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ApplicationClient" />
-        <item itemvalue="Application.ApplicationServer" />
         <item itemvalue="Node.js.www" />
+        <item itemvalue="Application.ApplicationServer" />
+        <item itemvalue="Application.ApplicationClient" />
       </list>
     </recent_temporary>
   </component>
@@ -1356,44 +1527,60 @@
       <workItem from="1527040337693" duration="15700000" />
       <workItem from="1527097864422" duration="3833000" />
       <workItem from="1527101938245" duration="9643000" />
+      <workItem from="1527179832790" duration="4052000" />
+      <workItem from="1527231518482" duration="8538000" />
+      <workItem from="1527257692153" duration="7484000" />
+      <workItem from="1527390927879" duration="1286000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33712000" />
+    <option name="totallyTimeSpent" value="55072000" />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="500" y="0" width="1369" height="1047" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32891247" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32936078" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32847276" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.31400436" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3129176" />
+      <window_info anchor="right" id="Database" order="3" weight="0.22161672" />
+      <window_info id="Structure" order="1" sideWeight="0.50132626" side_tool="true" weight="0.24405219" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.2494244" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.2745358" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32936078" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4617068" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29793736" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="right" id="Gradle" order="3" weight="0.24064171" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32891247" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.41281512" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32891247" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32891247" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49867374" visible="true" weight="0.16808964" />
+      <window_info id="Web" order="2" sideWeight="0.50132626" side_tool="true" weight="0.24405219" />
+      <window_info id="Learn" order="3" weight="0.3292402" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.23944743" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.50132626" side_tool="true" weight="0.24405219" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.26050422" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1404,6 +1591,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -1412,91 +1625,11 @@
       <option name="time" value="1" />
     </breakpoint-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GalaxyStation/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GalaxyStation/src/main/java/com/zhangxin/demon/controller/ApplicationClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GalaxyView/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GalaxyStation/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GalaxyService/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GalaxyService/src/main/resources/data/spring_database.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GalaxyStation/src/main/java/com/zhangxin/demon/controller/DemonServiceStation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GalaxyService/src/main/java/com/zhangxin/demon/provider/DemonServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GalaxyStation/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GalaxyStation/src/main/resources/dubbo_consumer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GalaxyView/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GalaxyView/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GalaxyStation/src/main/java/com/zhangxin/demon/controller/DemonServiceStation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1524,9 +1657,6 @@
           <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GalaxyStation/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/GalaxyStation/src/main/resources/spring_mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1556,37 +1686,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GalaxyView/app.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GalaxyView/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/GalaxyStation/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
           <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GalaxyApi/src/main/java/com/zhangxin/demon/service/DemonService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GalaxyView/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GalaxyService/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -1597,38 +1700,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GalaxyView/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GalaxyView/bin/www">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GalaxyStation/src/main/java/com/zhangxin/demon/controller/DemonServiceStation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GalaxyService/src/main/resources/data/spring_database.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GalaxyService/src/main/java/com/zhangxin/demon/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1639,48 +1714,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GalaxyService/src/main/java/com/zhangxin/demon/provider/DemonServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GalaxyApi/src/main/java/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-remoting/2.0.8/e4b7438ec34a8b377ea31a3099b788b23344b431/spring-remoting-2.0.8.jar!/org/springframework/remoting/httpinvoker/HttpInvokerServiceExporter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/dubbo/2.6.1/ee7a481e10525a68ac2ee62847faed6c544ca184/dubbo-2.6.1-sources.jar!/com/alibaba/dubbo/rpc/protocol/http/HttpProtocol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="146" column="37" lean-forward="true" selection-start-line="146" selection-start-column="37" selection-end-line="146" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GalaxyApi/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/GalaxyApi/src/main/java/META-INF/MANIFEST.MF" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-remoting/2.0.8/e4b7438ec34a8b377ea31a3099b788b23344b431/spring-remoting-2.0.8.jar!/org/springframework/remoting/httpinvoker/HttpInvokerServiceExporter.class" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/dubbo/2.6.1/ee7a481e10525a68ac2ee62847faed6c544ca184/dubbo-2.6.1-sources.jar!/com/alibaba/dubbo/rpc/protocol/http/HttpProtocol.java" />
     <entry file="file://$PROJECT_DIR$/GalaxyService/src/main/java/com/zhangxin/demon/consumer/KafkaConsumerServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GalaxyService/src/main/java/com/zhangxin/demon/ApplicationServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -1689,48 +1729,230 @@
         <state relative-caret-position="-132" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GalaxyService/build.gradle">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/dubbo/2.6.1/ee7a481e10525a68ac2ee62847faed6c544ca184/dubbo-2.6.1-sources.jar!/com/alibaba/dubbo/common/serialize/kryo/utils/KryoUtils.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/dubbo/2.6.1/ee7a481e10525a68ac2ee62847faed6c544ca184/dubbo-2.6.1-sources.jar!/com/alibaba/dubbo/remoting/transport/AbstractServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/dubbo/2.6.1/ee7a481e10525a68ac2ee62847faed6c544ca184/dubbo-2.6.1-sources.jar!/com/alibaba/dubbo/remoting/transport/netty4/NettyTransporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/dubbo/2.6.1/ee7a481e10525a68ac2ee62847faed6c544ca184/dubbo-2.6.1-sources.jar!/com/alibaba/dubbo/remoting/transport/netty4/NettyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="64" column="11" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GalaxyService/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GalaxyService/src/main/java/com/zhangxin/demon/producer/KafkaProducerListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/dubbo/2.6.1/ee7a481e10525a68ac2ee62847faed6c544ca184/dubbo-2.6.1-sources.jar!/com/alibaba/dubbo/rpc/cluster/support/wrapper/MockClusterInvoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GalaxyStation/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GalaxyService/src/main/resources/data/spring_database.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="12" column="70" lean-forward="true" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GalaxyApi/src/main/java/com/zhangxin/demon/SerializationOptimizerImpl.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.0.6.RELEASE/5df6665cba0f134530525b0d885a5ca66b614b02/spring-webmvc-5.0.6.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
-          <caret line="40" column="73" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="73" />
+          <caret line="157" column="13" selection-start-line="157" selection-start-column="13" selection-end-line="157" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GalaxyService/src/main/resources/dubbo/dubbo_provider.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="86" selection-start-line="11" selection-start-column="86" selection-end-line="11" selection-end-column="86" />
+        <state relative-caret-position="255">
+          <caret line="17" column="61" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GalaxyStation/src/main/java/com/zhangxin/demon/controller/ApplicationClient.java">
+    <entry file="file://$PROJECT_DIR$/GalaxyService/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="16" column="92" selection-start-line="16" selection-start-column="92" selection-end-line="16" selection-end-column="92" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GalaxyStation/src/main/resources/dubbo_consumer.xml">
+    <entry file="file://$PROJECT_DIR$/GalaxyApi/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="87" selection-start-line="8" selection-start-column="87" selection-end-line="8" selection-end-column="87" />
+        <state relative-caret-position="255">
+          <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/dubbo/2.6.1/ee7a481e10525a68ac2ee62847faed6c544ca184/dubbo-2.6.1-sources.jar!/com/alibaba/dubbo/common/serialize/kryo/utils/KryoUtils.java">
+    <entry file="file://$PROJECT_DIR$/GalaxyService/src/main/java/com/zhangxin/demon/ApplicationServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="116">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GalaxyStation/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="195">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GalaxyService/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GalaxyStation/src/main/java/com/zhangxin/demon/controller/ApplicationClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GalaxyApi/src/main/java/com/zhangxin/demon/entity/Org.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://530f4718-20e1-4db5-a21b-ba7e36860283/schema/galaxy/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/530f4718-20e1-4db5-a21b-ba7e36860283/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GalaxyApi/src/main/java/com/zhangxin/demon/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GalaxyService/src/main/java/com/zhangxin/demon/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="70" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GalaxyApi/src/main/java/com/zhangxin/demon/service/DemonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GalaxyService/src/main/java/com/zhangxin/demon/provider/DemonServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GalaxyView/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GalaxyView/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GalaxyView/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GalaxyView/node_modules/jquery/src/ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-358">
+          <caret line="386" column="4" selection-start-line="386" selection-start-column="4" selection-end-line="386" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GalaxyView/node_modules/jquery/dist/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9174" column="29" selection-start-line="9174" selection-start-column="22" selection-end-line="9174" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GalaxyView/public/javascript/galaxy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GalaxyStation/src/main/resources/dubbo_consumer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GalaxyStation/src/main/java/com/zhangxin/demon/controller/DemonServiceStation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GalaxyView/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -1741,10 +1963,10 @@
         <settings>
           <artifact-editor>
             <show-content>
-              <type id="javaee-facet-resources" />
-              <type id="library" />
-              <type id="artifact" />
               <type id="jpa-descriptors" />
+              <type id="artifact" />
+              <type id="library" />
+              <type id="javaee-facet-resources" />
             </show-content>
           </artifact-editor>
           <last-edited>GalaxyService</last-edited>
@@ -1796,12 +2018,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>GalaxyService</last-edited>
+          <last-edited>Spring|GalaxyStation_main|GalaxyStation</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
